@@ -1,26 +1,137 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2870
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# 📊 Retail Sales Forecasting Dashboard
 
-\f0\fs24 \cf0 # Retail Sales Forecasting Dashboard\
-\
-This project predicts future retail sales using Time Series Forecasting and Machine Learning.\
-\
-## Models Used\
-\
-- SARIMA\
-- Prophet\
-- XGBoost\
-\
-## Features\
-\
-- Sales Forecasting\
-- Time Series Analysis\
-- Anomaly Detection\
-- Product Demand Segmentation\
-- Interactive Streamlit Dashboard\
-\
-}
+An intelligent retail sales forecasting system built using Time Series Analysis, Machine Learning, Anomaly Detection, and Product Demand Segmentation.
+
+---
+
+## 🚀 Project Overview
+
+This project predicts future retail sales using three forecasting models and helps businesses make inventory planning decisions.
+
+The application also detects unusual sales behavior, segments products based on demand, and provides an interactive Streamlit dashboard for business users.
+
+---
+
+## 📂 Dataset
+
+- Superstore Sales Dataset (Kaggle)
+- Video Game Sales Dataset (used for anomaly detection)
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Streamlit
+- Scikit-learn
+- Statsmodels
+- Prophet
+- XGBoost
+
+---
+
+## 🤖 Machine Learning Models
+
+- SARIMA
+- Facebook Prophet
+- XGBoost Regressor
+
+---
+
+## 📈 Features
+
+- Sales Trend Analysis
+- Time Series Decomposition
+- Sales Forecasting
+- Model Comparison
+- Anomaly Detection
+- Product Demand Segmentation
+- Interactive Dashboard
+- Business Insights
+
+---
+
+## 📊 Dashboard Pages
+
+### 🏠 Home
+- KPI Cards
+- Yearly Sales
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+
+### 📈 Forecast Explorer
+- Actual vs Predicted Sales
+- Forecast Table
+- Forecast Metrics
+
+### 🚨 Anomaly Detection
+- Isolation Forest
+- Z-Score Detection
+- Weekly Sales Analysis
+
+### 📦 Product Segmentation
+- K-Means Clustering
+- Product Cluster Analysis
+- Inventory Recommendations
+
+---
+
+## 📁 Project Structure
+
+```
+Retail-Sales-Forecasting/
+│
+├── app.py
+├── analysis.ipynb
+├── summary.pdf
+├── train.csv
+├── forecast.csv
+├── monthly_sales.csv
+├── anomalies.csv
+├── comparison.csv
+├── clusters.csv
+├── requirements.txt
+├── README.md
+└── charts/
+```
+
+---
+
+## ▶️ Run Locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the dashboard:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📌 Results
+
+- Best Forecasting Model: **XGBoost**
+- Time Series Forecasting
+- Anomaly Detection using Isolation Forest
+- Product Segmentation using K-Means
+- Interactive Streamlit Dashboard
+
+---
+
+## 👩‍💻 Developed By
+
+**Aasritha**
+
+Engineering Student | Data Science & Machine Learning
+
+Internship Project
